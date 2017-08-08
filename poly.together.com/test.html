@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+$(function(){ 
+　　$("#div1").show();
+	for(var i=2;i<7;i++){
+	 setTimeout(test(i),500*i);
+	}
+	function test(i){
+	   $("#div"+i).show();
+	   $("#div1").hide();
+	   if(i>2){
+	    for(var j=2;j<i;j++){
+		$("#div"+j).hide();
+		}
+	  }
+	 
+	}
+}); 
+</script>
+<div id="div1" style="display:none">1111</div>
+<div id="div2" style="display:none">2111</div>
+<div id="div3" style="display:none">3111</div>
+<div id="div4" style="display:none">4111</div>
+<div id="div5" style="display:none">5111</div>
+<div id="div6" style="display:none">6111</div>
+</body>
+</html>

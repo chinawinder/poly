@@ -1,0 +1,57 @@
+.p6{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	background: url(../images/p6/bg.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.p6 .tu{
+	top: 10%;
+	left: 10%;
+}
+.p6 .btn{
+	top: 70%;
+	left: 33%;
+	z-index: 4;
+}
+/*.p6 .box{
+	width: 515px;
+	height: 689px;
+	top: 10%;
+	left: 10%;
+}
+.p6 .pic{
+	width: 515px;
+	height: 689px;
+	top: 0%;
+	left: 0%;
+}
+.p6 .book{
+	top: 15%;
+	left: 16%;
+}
+.p6 .hand{
+	width: 151px;
+	height: 391px;
+	top: 42.7%;
+	left: 0.5%;
+}*/
+.p6 .button3{
+	bottom:15%;
+	left: 10%;
+}
+.p6 .button4{
+	bottom:15%;
+	right: 10%;
+}
+.p6 .text{
+	bottom: 5%;
+	left: 10%;
+}
+.p6 .logo{
+	bottom: 5%;
+	right: 10%;
+}

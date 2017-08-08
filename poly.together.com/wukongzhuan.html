@@ -1,0 +1,228 @@
+<!doctype html>
+<html style="font-size: 37.5px;">
+<head>
+ <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<title>悟空传</title>
+</head>
+<script src="js/jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet"  id="night" type="text/css" href="style/style2.css">
+	<link rel="stylesheet" href="style/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/p1.css">
+	<link rel="stylesheet" type="text/css" href="css/p2.css">
+	<link rel="stylesheet" type="text/css" href="css/p3.css">
+	<link rel="stylesheet" type="text/css" href="css/p3_1.css">
+	<link rel="stylesheet" type="text/css" href="css/p3_2.css">
+	<link rel="stylesheet" type="text/css" href="css/p3_3.css">
+	<link rel="stylesheet" type="text/css" href="css/p3_4.css">
+	<link rel="stylesheet" type="text/css" href="css/p3_5.css">
+	<link rel="stylesheet" type="text/css" href="css/p4.css">
+	<link rel="stylesheet" type="text/css" href="css/p4_2.css">
+	<link rel="stylesheet" type="text/css" href="css/p6.css">
+	<link rel="stylesheet" type="text/css" href="css/shar.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+<style type="text/css">
+	@-webkit-keyframes fadeIn {
+0% {
+opacity: 0; /*初始状态 透明度为0*/
+}
+50% {
+opacity: .5; /*中间状态 透明度为0*/
+}
+100% {
+opacity: 1; /*结尾状态 透明度为1*/
+}
+}
+	@-webkit-keyframes scaleDraw {
+                0% {
+                    -webkit-transform:scale(1);
+                }
+                25% {
+                    -webkit-transform:scale(1.1);
+                }
+                50% {
+                    -webkit-transform:scale(1.2);
+                }
+                75% {
+                    -webkit-transform:scale(1.1);
+                }
+            }
+	.wukongbg{position: relative}
+	.bangimg img{position:absolute;left:0;-webkit-animation-name: scaleDraw;
+                -webkit-animation-timing-function: ease-in-out;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-duration: 8s;
+                -webkit-animation-direction: alternate;top:.4rem}
+	.readinglinebtn{position:fixed;bottom:0;height:1rem;background:#000;width:100%}
+	.readinglinebtn .corss a{background:#fff;color:#333;border-radius:4px;width:1.4rem;height:.8rem;font-size:.4rem;display:block;text-align:center;line-height:.8rem;right:.2rem;position:absolute;top:.1rem}
+	.dianimg{position:absolute;background-size:640px 7rem;height:7rem;width:100%;background:url(images3/dian.png) no-repeat;top:0;
+			}
+	.dian1{background-position: -155px -2rem;right:0;}
+	.dian2{background-position: -273px -16rem;right:0;}
+	.dian3{background-position: 0px -26rem;right:0;}
+	.dian4{background-position: 0px -35rem;right:0;}
+	.dian5{background-position: 0px -46rem;right:0;}
+	.dian6{background-position: -149px -53.9rem;right:0;}
+	.wrap::-webkit-scrollbar{display: none}
+	.lizi{background:url(images3/lizi.png);height:640px;position:absolute;top:6.5rem;width:1432px;background-size: cover;}
+	</style>
+<body>
+	<div class="p1">
+		<img src="images/p1/bg.jpg" style="display: none;">
+		<img src="images/p1/text1.png" style="display: none;">
+		<div class="layer text1"></div>
+		<div class="layer text2"></div>
+		<div class="layer text3"></div>
+		<div class="layer text4"></div>
+		<div class="layer text5"></div>
+		<div class="layer text6"></div>
+		<div class="layer text7 fr"></div>
+		<div class="layer text8 fr"></div>
+	</div>
+	<div class="p2 hide">
+		<div class="layer box box1"></div>
+		<div class="layer box box2"></div>
+		<div class="layer box box3"></div>
+		<div class="layer box box4"></div>
+		<div class="layer box box5"></div>
+		<div class="layer box box6"></div>
+		<img class="layer text1" src="images/p2/text1.png">
+		<img class="layer text2" src="images/p2/text2.png">
+		<img class="layer text3" src="images/p2/text3.png">
+		<img class="layer text4" src="images/p2/text4.png">
+		<img class="layer dian1" src="images/p2/dian.png">
+		<img class="layer dian2" src="images/p2/dian.png">
+		<img class="layer dian3" src="images/p2/dian.png">
+		<img class="layer dian4" src="images/p2/dian.png">
+		<img class="layer dian5" src="images/p2/dian.png">
+	</div>
+	<div class="swiper-container hide">
+		<div class="swiper-wrapper">
+			<div class="p3_5 swiper-slide">
+				<img class="layer text1" src="images/p3.5/text1.png" alt="">
+				<img class="layer text2" src="images/p3.5/text2.png" alt="">
+				<img class="layer book" src="images/p3.5/book.png" alt="">
+				<img class="layer button2 button_p3_5" src="images/p3/button-me.png" alt="">
+			</div>
+			<div class="p3_3 swiper-slide ">
+				<img class="layer text1" src="images/p3.3/text1.png" alt="">
+				<img class="layer text2" src="images/p3.3/text2.png" alt="">
+				<img class="layer book" src="images/p3.3/book.png" alt="">
+				<img class="layer button2 button_p3_3" src="images/p3/button-me.png" alt="">
+			</div>
+			<div class="p3_1 swiper-slide">
+				<img class="layer text1" src="images/p3.1/text1.png" alt="">
+				<img class="layer text2" src="images/p3.1/text2.png" alt="">
+				<img class="layer book" src="images/p3.1/book.png" alt="">
+				<img class="layer button2 button_p3_1" src="images/p3/button-me.png" alt="">
+			</div>
+			<div class="p3_2 swiper-slide">
+				<img class="layer text1" src="images/p3.2/text1.png" alt="">
+				<img class="layer text2" src="images/p3.2/text2.png" alt="">
+				<img class="layer book" src="images/p3.2/book.png" alt="">
+				<img class="layer button2 button_p3_2" src="images/p3/button-me.png" alt="">
+			</div>
+			<div class="p3 swiper-slide">
+				<img class="layer text1" src="images/p3/text1.png" alt="">
+				<img class="layer text2" src="images/p3/text2.png" alt="">
+				<img class="layer book" src="images/p3/book.png" alt="">
+				<img class="layer button2 button_p3" src="images/p3/button-me.png" alt="">
+			</div>	
+			<div class="p3_4 swiper-slide">
+				<img class="layer text1" src="images/p3.4/text1.png" alt="">
+				<img class="layer text2" src="images/p3.4/text2.png" alt="">
+				<img class="layer book" src="images/p3.4/book.png" alt="">
+				<img class="layer button2 button_p3_4" src="images/p3/button-me.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="p4_2 hide">		
+		<div class="sky"></div>
+		<div class="cur_home"></div>
+		<div class="move_cloud1"></div>
+		<div class="move_cloud2"></div>
+		<div>
+			<img src="images/p4.2/long_bg_long.jpg" />
+		</div>
+		<div class="p4_2_1"></div>
+		<div class="move_car"></div>
+		<div class="p4_2_2"></div>
+		<div class="move_car2"></div>
+		<div class="corss_bg">
+			<div class="corss_bt">
+			</div>
+			<div class="rat_div"></div>
+			<div class="num_div">0%</div>
+		</div>
+		
+	</div>
+	</div>
+<!-- 	<div class="wukongbg" id="wukongbg" >
+		<img src="images3/wokongbg.jpg" />
+		<div class="bangimg">
+			<img src="images3/bang.png" />
+		</div>
+		<div class="dian" >
+			<div class="dianimg dian1" id="dian1" ></div>
+			<div class="dianimg dian2" id="dian2" style="display: none" ></div>
+			<div class="dianimg dian3" id="dian3" style="display: none" ></div>
+			<div class="dianimg dian4" id="dian4" style="display: none" ></div>
+			<div class="dianimg dian5" id="dian5" style="display: none" ></div>
+			<div class="dianimg dian6" id="dian6" style="display: none" ></div>
+		</div>
+		<div class="lizi" id="lizi"></div>
+		
+	</div>
+	<div class="readinglinebtn" >
+		<div class="readling"></div>
+		<div class="corss">
+			<a href="#">跳过</a>
+		</div>
+	</div> -->
+</body>
+</html>
+
+	<script src="js/jquery-2.2.0.min.js"></script>
+	<script src="js/swiper.jquery.min.js"></script>
+	<script src="js/jweixin-1.0.0.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/waypoints.min.js"></script>
+<script>
+// var lastDivIndex=0;
+// var divIndex=1;
+// function qiehuan(){
+// setTimeout(qiehuan,2000); 
+// if(divIndex==1){
+// lastDivIndex=6;
+// }else{
+// lastDivIndex=divIndex-1;
+// }
+// $("#dian"+lastDivIndex).fadeOut(500,function(){
+// $('#dian'+divIndex).fadeIn(1400);
+// if(divIndex==6){
+// divIndex=1;
+// }else{
+// divIndex+=1;
+// }
+// });
+// }
+// setTimeout(qiehuan,100); 
+
+// </script>
+// <script> 
+// var leftPostion=0;
+// setInterval(function(){
+// 	var str="-"+leftPostion+"px";
+// 	$("#lizi").animate({left:str},2000,function(){
+// 		if(leftPostion>=1400){
+// 			leftPostion=1500;
+// 			$("#lizi").css("left",function (){
+// 				return "0px";
+// 			});
+// 		}
+// 	});
+// 	leftPostion+=200;
+// },1400);
+</script> 

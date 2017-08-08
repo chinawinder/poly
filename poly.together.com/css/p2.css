@@ -1,0 +1,108 @@
+.p2{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	background: url(../images/p2/bg.jpg) no-repeat;
+	background-size:100% 100%;
+}
+
+.p2 .text2{
+	top: 86%;
+    left: 57.69%;
+    width: 32%;
+}
+
+.p2 .text4{
+	bottom: 6.5%;
+    left: 6.829%;
+    width: 36%;
+}
+.p2 .box{
+	width: 11%;
+	z-index: 5;
+	/*background: pink;*/
+}
+.p2 .box1{
+	left: 21%;
+    height: 74%;
+}
+.p2 .box2{
+	left: 33%;
+    height: 74%;
+}
+.p2 .box3{
+	left: 44.5%;
+    height: 70.5%;
+}
+.p2 .box4{
+	left: 56.5%;
+	height: 66%;
+}
+.p2 .box5{
+	left: 68%;
+	height: 60%;
+}
+
+.p2 .dian1 {
+	width: 8%;left: 22.99%;top: 67%;
+	position: absolute;
+	pointer-events: none;
+	-webkit-animation:flash 5s 0s infinite both;
+}
+.p2 .dian2 {
+	width: 8%;left: 35.1%;top: 63%;
+	position: absolute;
+	pointer-events: none;
+	-webkit-animation:flash 5s 1s infinite both;
+}
+.p2 .dian3 {
+	width: 8%;left: 47%;top: 59%;
+	position: absolute;
+	pointer-events: none;
+	-webkit-animation:flash 5s 2s infinite both;
+}
+.p2 .dian4 {
+	width: 8%;left: 58.8%;top: 55%;
+	position: absolute;
+	pointer-events: none;
+	-webkit-animation:flash 5s 3s infinite both;
+}
+.p2 .dian5 {
+	width: 8%;left: 70.3%;top: 51.4%;
+	position: absolute;
+	pointer-events: none;
+	-webkit-animation:flash 5s 4s infinite both;
+}
+.p2 .dian6 {
+	width: 8%;left: 82%;top: 45%;
+	position: absolute;
+	pointer-events: none;
+	-webkit-animation:flash 5s 5s infinite both;
+}
+@-webkit-keyframes flash{
+	0%,16%,100% {
+		opacity: 0;
+	}
+	8% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes gotop{
+	0%{
+		-webkit-transform:translateY(1100px);
+	}
+	100%{
+		-webkit-transform:translateY(0);
+	}
+}
+@-webkit-keyframes goleft{
+	0%{
+		-webkit-transform:translateX(700px);
+	}
+	100%{
+		-webkit-transform:translateX(0);
+	}
+}

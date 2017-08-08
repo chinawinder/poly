@@ -1,0 +1,66 @@
+.p3_2{
+	background: url(../images/p3.2/bg.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.p3_2 .text1{
+	top: 20%;
+    left: 24%;
+    background-size: contain;
+    height: 15%;
+    width: auto;
+}
+.p3_2 .text2{
+	top: 81%;
+    left: 18%;
+    background-size: contain;
+    height: 3%;
+    width: auto;
+}
+.p3_2 .book{
+	width: auto;
+    height: 37%;
+    top: 12%;
+    left: 36%;
+	
+}
+.p3_2 .button2{
+	top: 63%;
+    left: 37%;
+    background-size: contain;
+    height: 0.9rem;
+    width: auto;
+}
+@-webkit-keyframes gotop{
+	0%{
+		-webkit-transform:translateY(1100px);
+	}
+	100%{
+		-webkit-transform:translateY(0);
+	}
+}
+@-webkit-keyframes goright{
+	0%{
+		-webkit-transform:translateX(-700px);
+	}
+	100%{
+		-webkit-transform:translateX(0);
+	}
+}
+@-webkit-keyframes showing{
+	0%,100%{
+		opacity: .8;
+	}
+	50%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes small{
+	0%{
+		-webkit-transform:scale(5);
+		opacity: 0;
+	}
+	100%{
+		-webkit-transform:scale(1);
+		opacity: 1;
+	}
+}
